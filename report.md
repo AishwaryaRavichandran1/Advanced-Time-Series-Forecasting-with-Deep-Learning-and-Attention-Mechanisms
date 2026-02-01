@@ -37,19 +37,17 @@ Baseline
 Single-layer LSTM
 
 4. Hyperparameters
-Parameter	         Values
-Window Size	           24
-LSTM Units	           64
-GRU Units	             32
-Attention Units	       32
-Optimizer	           Adam
-LR Scheduler	       ReduceLROnPlateau
-
+Parameter	Values
+Window Size	24
+LSTM Units	64
+GRU Units	32
+Attention Units	32
+Optimizer	Adam
+LR Scheduler	ReduceLROnPlateau
 5. Results
-Model	                    RMSE	    MAE	     MAPE
-LSTM + GRU + Attention   0.061	    0.044	   6.9%
-Baseline LSTM	           0.083 	    0.062	   10.8%
-
+Model	RMSE	MAE	MAPE
+LSTM + GRU + Attention	0.061	0.044	6.9%
+Baseline LSTM	0.083	0.062	10.8%
 6. Attention Analysis
 
 Strong emphasis on recent time steps
